@@ -1,0 +1,55 @@
+/* index.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .user-list {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  tbody td {
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  tbody td:last-child {
+    text-align: center;
+  }
+  
+  tbody td button {
+    margin-right: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  tbody td button:hover {
+    background-color: #0056b3;
+  }
+  
